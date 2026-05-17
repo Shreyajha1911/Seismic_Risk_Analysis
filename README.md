@@ -52,17 +52,16 @@ pip install graphframes
 # Launch Jupyter
 jupyter notebook Group_project_final.ipynb
 
-## Results & visualisations
-The notebook produces 8 visualisations saved as PNG/HTML:
+## Results & Visualisations
 
-viz1 — Top 20 regions by Risk Index
-viz2 — Streaming: live earthquake activity over time
-viz3 — Graph: seismic proximity network (node size = PageRank, colour = Risk Index)
-viz4 — ML cluster profiles (frequency, magnitude, depth by tier)
-viz5 — PageRank vs Risk Index comparison
-viz6 — Seismic proximity network diagram
-viz7 — Interactive world map coloured by ML risk tier (Plotly HTML)
-viz8 — Risk Index composition: frequency vs severity (stacked bar, top 5 regions)
+- **Viz 1** — Top 20 regions ranked by Risk Index
+- **Viz 2** — Live earthquake activity over time (Streaming)
+- **Viz 3** — Seismic proximity network (node size = PageRank, colour = Risk Index)
+- **Viz 4** — ML cluster profiles by frequency, magnitude and depth
+- **Viz 5** — PageRank vs Risk Index comparison
+- **Viz 6** — Seismic proximity network diagram
+- **Viz 7** — Interactive world map coloured by ML risk tier (Plotly)
+- **Viz 8** — Risk Index composition: frequency vs severity (top 5 regions)
 
 
 ## Data source
